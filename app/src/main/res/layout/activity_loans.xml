@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+
+
+
+    <ScrollView android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ImageView
+
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:id="@+id/i1"
+                        android:layout_marginLeft="90dp"
+
+                        android:src="@mipmap/loan"
+                        android:ems="10"/>
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="150dp"
+                        android:id="@+id/t1"
+                        android:text="Loans"
+                        ></TextView>
+
+
+                    <Button
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+
+                        android:layout_marginTop="50dp"
+                        android:id="@+id/t2"
+                        android:text="what is Loan"
+                        android:padding="20dp"
+                        android:textSize="25dp"
+                        ></Button>
+                    <Button
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/t3"
+                        android:padding="20dp"
+                        android:textSize="25dp"
+                        android:text="Importance of Loan"
+                        ></Button>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

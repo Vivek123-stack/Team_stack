@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/root"
+    tools:context=".training_description">
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:text="What is Finance?"/>
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_marginTop="80dp"
+        android:padding="20dp"
+
+        android:textSize="27dp"
+        android:text="Finance is the study of money and how it is used. Specifically, it deals with the questions of how an individual, company or government acquires the money needed - called capital in the company context - and how they then spend or invest that money. Finance is, correspondingly, often split into three areas: personal finance, corporate finance and public finance."/>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="85dp"
+        android:layout_marginBottom="106dp"
+        android:padding="10dp"
+        android:text="Watch Video"
+        android:textSize="25dp"
+        tools:ignore="NotSibling" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="150dp"
+
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="112dp"
+        android:layout_marginRight="147dp"
+        android:layout_marginBottom="23dp"
+        android:padding="10dp"
+        android:text="Take Quiz"
+        android:textSize="25dp" />
+
+
+</RelativeLayout>

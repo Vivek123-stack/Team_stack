@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/root"
+    tools:context=".training_description">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="40dp"
+        android:src="@mipmap/policies"
+        android:fitsSystemWindows="true"/>
+
+
+    <Button
+        android:drawableLeft="@drawable/arrow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/btn"
+        android:textSize="25dp"
+        android:text="What is Insurance" />
+    <Button
+        android:drawableLeft="@drawable/arrow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Importance of Insurance "
+        android:padding="20dp"
+        android:id="@+id/btn1"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/btn"/>
+    <Button
+        android:drawableLeft="@drawable/arrow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Life Insurance "
+        android:padding="20dp"
+        android:id="@+id/btn2"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/btn1"/>
+    <Button
+        android:drawableLeft="@drawable/arrow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Property Insurance"
+        android:padding="20dp"
+        android:id="@+id/btn3"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/btn2"/>
+
+            <Button
+                android:drawableLeft="@drawable/arrow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Marine Insurance"
+                android:padding="20dp"
+                android:id="@+id/btn4"
+                android:textSize="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/btn3"/>
+
+            <Button
+                android:drawableLeft="@drawable/arrow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Fire Insurance"
+                android:padding="20dp"
+                android:id="@+id/btn5"
+                android:textSize="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/btn4"/>
+            <Button
+                android:drawableLeft="@drawable/arrow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Liability Insuarance"
+                android:padding="20dp"
+                android:id="@+id/btn6"
+                android:textSize="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/btn5"/>
+            <Button
+                android:drawableLeft="@drawable/arrow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Social Insurance"
+                android:padding="20dp"
+                android:id="@+id/btn7"
+                android:textSize="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/btn6"/>
+            <Button
+                android:drawableLeft="@drawable/arrow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Guarantee Insurance"
+            android:padding="20dp"
+            android:id="@+id/btn8"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/btn7"/>
+            <Button
+                android:drawableLeft="@drawable/arrow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Property Insurance"
+                android:padding="20dp"
+                android:id="@+id/btn9"
+                android:textSize="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/btn8"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

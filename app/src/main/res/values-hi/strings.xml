@@ -1,0 +1,38 @@
+<resources>
+
+<string name="title_activity_registration">
+पंजीकरण</string>
+    <string name="action_settings">
+समायोजन</string>
+
+    <string name="welcome">स्वागत हे</string>
+    <string name="email">
+ईमेल पता</string>
+    <string name="password">
+पासवर्ड</string>
+    <string name="login">
+लॉग इन</string>
+    <string name="signup">साइन अप करें</string>
+    <string name="title_activity_homepage">होमपेज</string>
+    <string name="title_activity_training">
+प्रशिक्षण</string>
+    <string name="title_activity_insurance_policies">बीमा नीति</string>
+    <string name="title_activity_loans">उधार
+</string>
+    <string name="title_activity_government_schemes">
+सरकारी योजनाएं</string>
+    <string name="title_activity_investments">
+निवेश</string>
+    <string name="title_activity_scholoarships">
+छात्रवृत्ति</string>
+    <string name="title_activity_training_description">
+प्रशिक्षण विवरण</string>
+    <string name="title_activity_insurance_description">
+बीमा विवरण
+</string>
+    <string name="title_activity_loans_description">ऋण विवरण
+    </string>
+    <string name="title_activity_quiz1">प्रश्नोत्तरी1</string>
+    <string name="title_activity_quiz2">प्रश्नोत्तरी2</string>
+    <string name="title_activity_training_watch_videos">प्रशिक्षण वीडियो देखें</string>
+</resources>

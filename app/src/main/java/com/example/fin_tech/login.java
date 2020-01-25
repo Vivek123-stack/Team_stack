@@ -38,7 +38,7 @@ public class login extends AppCompatActivity {
 
             //opening profile activity
            //
-            // startActivity(new Intent(getApplicationContext(), homepage.class));
+            startActivity(new Intent(getApplicationContext(), homepage.class));
         }
         email = (EditText) findViewById(R.id.txtEmail);
         password = (EditText) findViewById(R.id.txtPwd);

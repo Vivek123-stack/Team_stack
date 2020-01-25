@@ -26,7 +26,7 @@ public class homepage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_homepage);
 
-        //mAuth=FirebaseAuth.getInstance();
+        mAuth=FirebaseAuth.getInstance();
 
 
         Button t2 =  findViewById(R.id.btnlogout);
@@ -36,6 +36,7 @@ public class homepage extends AppCompatActivity {
         t2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                mAuth.signOut();
                 Intent intent = new Intent(getApplicationContext(), login.class);
                 startActivity(intent);
 

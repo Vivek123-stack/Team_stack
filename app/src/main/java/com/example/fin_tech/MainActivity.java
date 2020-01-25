@@ -21,7 +21,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        if(FirebaseAuth.getInstance().getCurrentUser() != null){
+            //close this activity
 
+            //opening profile activity
+
+            startActivity(new Intent(getApplicationContext(), homepage.class));
+        }
 
 
         Spinner dropdown =  findViewById(R.id.spinner1);
